@@ -54,6 +54,14 @@ const BarChart = () => {
       },
       responsive: true,
       maintainAspectRatio: false,
+      scales: {
+        x: {
+          stacked: true,
+        },
+        y: {
+          stacked: true,
+        },
+      },
     });
   });
 
